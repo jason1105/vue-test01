@@ -12,7 +12,7 @@
 </template>
 
 <script>
-    import CustomInput from './components/Bind2-Input.vue'
+    import CustomInput from './components/CustomInput.vue'
 
     export default {
         name: 'app',
