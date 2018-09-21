@@ -18,8 +18,6 @@
         methods: {
             onInputHandler: function(event) {
                 this.specName = event.target.value + "-name";
-
-                this.$emit('2ndEvent', event.target.value + "-name");
                 this.$emit('input', event.target.value);
             }
         }
